@@ -18,7 +18,7 @@ namespace DIO.DesafiosNetCore
                 switch (opcao)
                 {
                     case 1:
-                       // Media.CalculaMedia();
+                        CoordenadasPonto.CoordenadasDeUmPonto();
                         break;
                     
                     case 4:
