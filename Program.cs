@@ -19,6 +19,7 @@ namespace DIO.DesafiosNetCore
                     Console.WriteLine("Escolha as opções:");
                     Console.WriteLine("1 - Opção Coordenadas de um Ponto.");
                     Console.WriteLine("2 - Opção Compras no Supermercado.");
+                    Console.WriteLine("3 - Opção Pink e Cérebro.");
                     Console.WriteLine("4 - Sair.");
 
                     int opcao = Convert.ToInt32(Console.ReadLine());
@@ -31,6 +32,9 @@ namespace DIO.DesafiosNetCore
                         case 2:
                             ComprasSupermercado.ComprasNoSupermercado();
                             break;                    
+                        case 3:
+                            PinkCerebro.FazCalculos();
+                            break;                               
                         case 4:
                             Console.WriteLine("Até Mais!");
                             repete = false;
